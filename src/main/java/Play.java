@@ -198,14 +198,6 @@ public class Play
        canPlay = false;
        Lose();
       }else{
-
-          Put man here
-          --
-          o |
-         /|\|
-         / \|
-         _____
-        */
         String man[] = new String[7];
         man[0] = " --\n   |\n   |\n   |\n_____\n";
         man[1] = " --\n o |\n   |\n   |\n_____\n";

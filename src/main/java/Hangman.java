@@ -21,23 +21,23 @@ class Hangman
         obj.Start(3);
       }
     }
-    switch (diff)
-    {
-      case 1:
-        Play obj = new Play();
-        obj.Start(diff);
-        break;
-      case 2:
-        Play obj = new Play();
-        obj.Start(diff);
-        break;
-      case 3:
-        Play obj = new Play();
-        obj.Start(diff);
-        break;
-      default:
-        Play obj = new Play();
-        obj.Start(diff);
-    }
+    // switch (diff)
+    // {
+    //   case 1:
+    //     Play obj = new Play();
+    //     obj.Start(diff);
+    //     break;
+    //   case 2:
+    //     Play obj = new Play();
+    //     obj.Start(diff);
+    //     break;
+    //   case 3:
+    //     Play obj = new Play();
+    //     obj.Start(diff);
+    //     break;
+    //   default:
+    //     Play obj = new Play();
+    //     obj.Start(diff);
+    // }
   }
 }
